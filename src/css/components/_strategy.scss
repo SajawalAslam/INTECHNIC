@@ -1,0 +1,134 @@
+.strategy{
+    position: relative;
+    height: 1300px;
+    width: 100%;
+    background-color: $font-color;
+    .pic{
+        position: absolute;
+        top: 400px;
+        right: 0;
+        display: block;
+        height: 610px;
+        width: 400px;
+        background-image: url(./images/s.png);
+        background-size: cover;
+    }
+    .strat-video{
+        position: relative;
+        top: 180px;
+        left: 180px;
+        height: 480px;
+        width: 69%;
+        // overflow: hidden;
+        box-shadow: 0 100px 200px rgba(66,0,5,0.3);
+        video{
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;        
+        }
+        .parallax-strat{
+            position: absolute;
+            top: 0px;
+            left: 100px;
+            z-index: 9;
+            font-size: 40px;
+            font-size: 5.2rem;
+            font-weight: 800;
+            color: #221f1f;
+            font-family: $fonts3;
+            transition: all .5s;
+            h1{
+                z-index: 9;
+                font-size: 40px;
+                font-size: 5.2rem;
+                font-weight: 800;
+                transition: all .5s;
+            }
+        }
+    }
+    .option{
+        position: absolute;
+        top: 46%;
+        left: 53%;
+        height: 450px;
+        width: 350px;
+        background-color: white;
+       box-shadow: 0 100px 800px rgba(66,0,5,0.2);
+       .option-ul{
+           position: relative;
+           top: 30px;
+           left: 50px;
+           list-style: none;
+           li{
+               line-height: 2.7;
+               font-size: 20px;
+               color: #D82533;
+               width: 270px;
+               border-bottom: 1px solid #EEEDED;
+               span{
+                   margin-left: 50px;
+                   font-size: 16px;
+                   font-family: $fonts;
+                   color: grey;
+               }
+           }
+       }
+    }
+    .about-stra{
+        position: absolute;
+        top: 55%;
+        left: 20%;
+        color: #221f1f;
+        font-size: 16px;
+        font-size: 1.3rem;
+        line-height: 1.659em;
+        font-weight: 400;
+        font-family: $fonts;
+    }
+    .circle{
+        position: absolute;
+        top: 1200px;
+        left: 20%;
+        height: 45px;
+        width: 45px;
+        background-color: #D82533;
+        border-radius: 100px; 
+        cursor: pointer;
+        transition: 0.7s;
+        i{
+            position: absolute;
+            top: 8px;
+            left: -2px;
+            font-size: 30px;
+            font-weight: 510;
+            color: white;
+        }
+        &:hover{
+            background-color: #221f1f;
+            transition: 0.7s;
+        &:hover .circle-span{
+                color: #221f1f;
+                transition: 0.7s;
+        }
+        }
+        .circle-span{
+            position: absolute;
+            left: 70px;
+            width: 160px;
+            font-family: $fonts;
+            color: #D82533;
+            font-weight: 900;
+            cursor: pointer;
+            transition: 0.7s;
+            &:hover{
+                color: #221f1f;
+                transition: 0.7s;
+            }
+        }
+    }
+}

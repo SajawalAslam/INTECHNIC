@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url("https://use.fontawesome.com/releases/v5.0.4/css/all.css");
+
+@import './variables/allvariables';
+@import './mixins/social';
+@import './components/nav';
+@import './components/strategy';
+@import './components/ux';
+@import './components/web.scss';
+@import './components/marketing.scss';
+@import './components/deliver.scss';
+@import './components/contact.scss';
+@import './components/map.scss';
+
+// @import './mixins/hero';
+// @import './mixins/button';
+// @import './components/navbar';
+// @import './components/Hero';
+// @import './components/aboutus';

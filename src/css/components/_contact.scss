@@ -1,0 +1,153 @@
+.main-contact{
+    position: relative;
+    height: 920px;
+    width: 100%;
+    background-color: #F3F3F3;
+    .h1-contact{
+        position: absolute;
+        top: 150px;
+        left: 20%;
+        font-size: 80px;
+        font-family: $fonts3;
+        line-height: 1;
+        .resultcontact{
+            position: absolute;
+            top: 80px;
+            color: #D82533;
+        }
+        .contactnumber{
+            position: absolute;
+            top: 115px;
+            left: 290px;
+            width: 400px;
+            color: grey;
+            font-size: 29px;
+        }
+    }
+    .name-contact{
+        position: absolute;
+        top: 400px;
+        left: 20%;
+        height: 45px;
+        width: 300px;
+        background-color: white;
+        border: none;
+    }
+    .label-name{
+        position: absolute;
+        top: 41%;
+        left: 21%;
+        font-size: 16px;
+        font-family: $fonts;
+    }
+    .last-contact{
+        position: absolute;
+        top: 400px;
+        left: 57%;
+        height: 45px;
+        width: 300px;
+        background-color: white;
+        border: none;
+    }
+    .last-name{
+        position: absolute;
+        top: 41%;
+        left: 58%;
+        font-size: 16px;
+        font-family: $fonts;
+    }
+    .phone-contact{
+        position: absolute;
+        top: 500px;
+        left: 20%;
+        height: 45px;
+        width: 300px;
+        background-color: white;
+        border: none;
+    }
+    .phone-num{
+        position: absolute;
+        top: 52%;
+        left: 21%;
+        font-size: 16px;
+        font-family: $fonts;
+    }
+    .email-contact{
+        position: absolute;
+        top: 500px;
+        left: 57%;
+        height: 45px;
+        width: 300px;
+        background-color: white;
+        border: none;
+    }
+    .email-num{
+        position: absolute;
+        top: 52%;
+        left: 58%;
+        font-size: 16px;
+        font-family: $fonts;
+    }
+    .company-contact{
+        position: absolute;
+        top: 600px;
+        left: 20%;
+        height: 45px;
+        width: 300px;
+        background-color: white;
+        border: none;
+    }
+    .company-num{
+        position: absolute;
+        top: 63%;
+        left: 21%;
+        font-size: 16px;
+        font-family: $fonts;
+    }
+    .role{
+        position: absolute;
+        top: 600px;
+        left: 57%;
+        height: 45px;
+        width: 300px;
+        border: none;
+        option{
+            font-family: $fonts;
+        }
+    }
+        .role-num{
+            position: absolute;
+            top: 63%;
+            left: 58%;
+            font-size: 16px;
+            font-family: $fonts;
+        }
+    .help{
+        position: absolute;
+        top: 700px;
+        left: 20%;
+        height: 45px;
+        width: 800px;
+        padding-left: 20px;
+        border: none;
+    }
+    .button-send{
+        position: absolute;
+        top: 87%;
+        left: 20%;
+        height: 50px;
+        width: 160px;
+        background-color: #D82533;
+        color: white;
+        border: none;
+        font-family: $fonts;
+        font-size: 14px;
+        transition: all 0.5s;
+        font-weight: 700;
+        &:hover{
+            background-color: white;
+            color: #D82533;
+            transition: all 0.5s;
+        }
+    }
+}

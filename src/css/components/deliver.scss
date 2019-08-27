@@ -1,0 +1,474 @@
+.main-deliver{
+    position: relative;
+    height: 2400px;
+    width: 100%;
+    background-color: #221F1F;
+    .name-del{
+        position: absolute;
+        top: 200px;
+        left: 20%;
+        font-size: 6.1rem;
+        color: #d82533;
+        font-family: $fonts3;
+        line-height: 0.9;
+        .full-name-del{
+            position: absolute;
+            top: 100px;
+            color: white;
+        }
+        .register{
+            position: absolute;
+            top: 110px;
+            left: 200px;
+            font-size: 22px;
+            font-family: $fonts;
+            color: #EEEDED;
+        }
+    }
+    .insurance-del{
+        position: absolute;
+        top: 500px;
+        left: 20%;
+        height: 420px;
+        width: 420px;
+        background-image: url(./images/insurance.jpg);
+        cursor: pointer;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all 0.6s;
+        overflow: hidden;
+        box-shadow: 0 100px 200px rgba(0,0,0,0.5);
+        &:hover{
+            transform: scale(1.1);
+            transition: all 0.6s;
+            z-index: 4;
+        }
+            &:after{
+            content: '';
+            position: absolute;
+            left: -50%;
+            bottom: -50%;
+            width: 150%;
+            height: 100%;
+                background: radial-gradient(ellipse at center,#d82533 0%,rgba(239,168,173,0) 60%,rgba(255,255,255,0) 100%);
+            }
+            &:before{
+                content: '';
+                position: absolute;
+                right: -35%;
+                top: -54%;
+                width: 120%;
+                height: 100%;
+                background: radial-gradient(ellipse at center,#239f46 0%,rgba(239,168,173,0) 60%,rgba(255,255,255,0) 100%);
+            }
+        .h3-del{
+            position: relative;
+            top: 40px;
+            left: 10%;
+            color: $font-color;
+            font-family: $fonts;
+            font-size: 15px;
+            font-weight: 7;
+        }
+        .h2-del{
+            position: relative;
+            top: 80px;
+            left: 10%;
+            color: $font-color;
+            font-size: 17px;
+            font-family: $fonts;
+            line-height: 0.9;
+            letter-spacing: 0.1ch;            
+        }
+        .i-del{
+            position: relative;
+            top: 50px;
+            left: 200px;
+            color: white;
+            font-size: 25px;
+        }
+        .p-del{
+            position: relative;
+            top: 220px;
+            left: 10%;
+            font-size: 19px;
+            color: white;
+            z-index: 7;
+            font-family: $fonts;
+            line-height: 1.3;
+        }
+    }
+    .circle-del{
+        position: absolute;
+        top: 780px;
+        left: 15.7%;
+        height: 80px;
+        width: 80px;
+        border-radius: 100px;
+        z-index: 10;
+        background-color: #2878DB;
+        text-align: center;
+        color: white;
+        font-size: 28px;
+        font-family: $fonts2;
+        padding-top: 20px;
+    }
+    .webbay-del{
+        position: absolute;
+        top: 20.8%;
+        left: 51.2%;
+        height: 210px;
+        width: 210px;
+        background-color: white;
+        img{
+            margin-top: 65px;
+            margin-left: 40px;
+            height: auto;
+            width: 150px;
+        }
+    }
+        .bluecross-del{
+            position: absolute;
+            top: 29.6%;
+            left: 67.0%;
+            height: 210px;
+            width: 210px;
+            background-color: #2C2929;
+            img{
+                margin-top: 50px;
+                margin-left: 45px;
+                height: auto;
+                width: 130px;
+            }
+        }
+        .finance-del{
+            position: absolute;
+            top: 920px;
+            left: 51.4%;
+            height: 420px;
+            width: 420px;
+            background-image: url(./images/finance.jpg);
+            cursor: pointer;
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: all 0.6s;
+            overflow: hidden;
+            box-shadow: 0 100px 200px rgba(0,0,0,0.5);
+            &:hover{
+                transform: scale(1.1);
+                transition: all 0.6s;
+                z-index: 4;
+            }
+            .financeh3-del{
+                position: relative;
+                top: 40px;
+                left: 15%;
+                color: $font-color;
+                font-family: $fonts;
+                font-size: 15px;
+                font-weight: 7;
+                z-index: 3;
+            }
+            &:before{
+                content: '';
+                position: absolute;
+                left: -50%;
+                top: -50%;
+                width: 120%;
+                height: 120%;
+                background: radial-gradient(ellipse at center,#fc712c 0%,rgba(254,198,171,0) 60%,rgba(255,255,255,0) 100%);
+                z-index: 1;
+            }
+            &:after{
+                content: '';
+                position: absolute;
+                left: -50%;
+                bottom: -50%;
+                width: 120%;
+                height: 120%;
+                background: radial-gradient(ellipse at center,#0bcbd2 0%,rgba(157,234,237,0) 60%,rgba(255,255,255,0) 100%);
+                z-index: 1;
+            }
+            .finance-logo{
+                position: relative;
+                top: 80px;
+                left: 58px;
+                z-index: 3;
+                height: auto;
+                width: 100px;
+            }
+            .financep-del{
+                position: relative;
+                top: 220px;
+                left: 13%;
+                font-size: 19px;
+                color: white;
+                z-index: 3;
+                font-family: $fonts;
+                line-height: 1.3;
+            }
+        }
+        .financecircle-del{
+            position: absolute;
+            top: 49.5%;
+            left: 48%;
+            height: 80px;
+            width: 80px;
+            border-radius: 100px;
+            z-index: 10;
+            background-color: #239f46;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            font-family: $fonts2;
+            padding-top: 20px;
+        }
+        .horizon-del{
+                position: absolute;
+                top: 38.3%;
+                left: 35.8%;
+                height: 210px;
+                width: 210px;
+                background-color: white;
+                img{
+                    margin-top: 70px;
+                    margin-left: 20px;
+                    height: auto;
+                    width: 180px;
+                }
+        }
+        .bmo-del{
+            position: absolute;
+            top: 47%;
+            left: 20.2%;
+            height: 210px;
+            width: 210px;
+            background-color: #2C2929;
+            img{
+                margin-top: 60px;
+                margin-left: 20px;
+                height: auto;
+                width: 180px;
+            }
+        }
+        .manu-del{
+            position: absolute;
+            top: 55.8%;
+            left: 20%;
+            height: 420px;
+            width: 420px;
+            background-image: url(./images/manufacture.jpg);
+            cursor: pointer;
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: all 0.6s;
+            overflow: hidden;
+            box-shadow: 0 100px 200px rgba(0,0,0,0.5);
+            &:hover{
+                transform: scale(1.1);
+                transition: all 0.6s;
+                z-index: 4;
+            }
+            &:before{
+                content: '';
+                position: absolute;
+                left: -30%;
+                top: -60%;
+                width: 120%;
+                height: 120%;
+                background: radial-gradient(ellipse at center,#0bcbd2 0%,rgba(157,234,237,0) 60%,rgba(255,255,255,0) 100%);
+                z-index: 1;
+            }
+            &:after{
+                content: '';
+                position: absolute;
+                left: -50%;
+                bottom: -50%;
+                width: 120%;
+                height: 120%;
+                background: radial-gradient(ellipse at center,#fc712c 0%,rgba(254,198,171,0) 70%,rgba(255,255,255,0) 100%);
+                z-index: 1;
+            }
+            .manuh3-del{
+                position: relative;
+                top: 40px;
+                left: 10%;
+                color: $font-color;
+                font-family: $fonts;
+                font-size: 15px;
+                font-weight: 7;
+                z-index: 3;
+            }
+            .manu-logo{
+                position: relative;
+                top: 80px;
+                left: 10%;
+                z-index: 3;
+                height: auto;
+                width: 100px;
+            }
+            .manup-del{
+                position: relative;
+                top: 220px;
+                left: 13%;
+                font-size: 19px;
+                color: white;
+                z-index: 3;
+                font-family: $fonts;
+                line-height: 1.3;
+            }
+        }
+        .manucircle-del{
+            position: absolute;
+            top: 66.7%;
+            left: 16%;
+            height: 80px;
+            width: 80px;
+            border-radius: 100px;
+            z-index: 10;
+            background-color: #0BDBD2;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            font-family: $fonts2;
+            padding-top: 20px;
+        }
+        .davey-del{
+            position: absolute;
+            top: 55.79%;
+            left: 51.2%;
+            height: 210px;
+            width: 210px;
+            background-color: white;
+            img{
+                margin-top: 65px;
+                margin-left: 40px;
+                height: auto;
+                width: 150px;
+            }
+        }
+        .brun-del{
+            position: absolute;
+            top: 64.6%;
+            left: 67.0%;
+            height: 210px;
+            width: 210px;
+            background-color: #2C2929;
+            img{
+                margin-top: 30px;
+                margin-left: 30px;
+                height: auto;
+                width: 160px;
+            }
+        }
+        .e-commerce{
+            position: absolute;
+            top: 73.3%;
+            left: 51.4%;
+            height: 420px;
+            width: 420px;
+            background-image: url(./images/project.jpg);
+            cursor: pointer;
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: all 0.6s;
+            overflow: hidden;
+            box-shadow: 0 100px 200px rgba(0,0,0,0.5);
+            &:hover{
+                transform: scale(1.1);
+                transition: all 0.6s;
+                z-index: 4;
+            }
+            &:before{
+                content: '';
+                position: absolute;
+                left: -30%;
+                top: -60%;
+                width: 120%;
+                height: 120%;
+                background: radial-gradient(ellipse at center,#ef9d00 0%,rgba(239,157,0,0) 60%,rgba(255,255,255,0) 100%);
+                z-index: 1;
+            }
+            &:after{
+                content: '';
+                 position: absolute;
+                 left: -50%;
+                 bottom: -50%;
+                 width: 120%;
+                 height: 120%;
+                 background: radial-gradient(ellipse at center,#0089c8 0%,rgba(0,137,200,0) 70%,rgba(255,255,255,0) 100%);
+                 z-index: 1;
+            }
+            .e-commerceh3-del{
+                position: relative;
+                top: 40px;
+                left: 15%;
+                color: $font-color;
+                font-family: $fonts;
+                font-size: 15px;
+                font-weight: 7;
+                z-index: 3;
+            }
+            .e-commerce-logo{
+                position: relative;
+                top: 80px;
+                left: 58px;
+                z-index: 3;
+                height: auto;
+                width: 100px;
+            }
+            .e-commercep-del{
+                position: relative;
+                top: 220px;
+                left: 13%;
+                font-size: 19px;
+                color: white;
+                z-index: 3;
+                font-family: $fonts;
+                line-height: 1.3;
+            }
+        }
+        .ecommercecircle-del{
+            position: absolute;
+            top: 85%;
+            left: 48%;
+            height: 80px;
+            width: 80px;
+            border-radius: 100px;
+            z-index: 10;
+            background-color: #D82533;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            font-family: $fonts2;
+            padding-top: 20px;
+        }
+        .css-del{
+            position: absolute;
+            top: 73.3%;
+            left: 35.8%;
+            height: 210px;
+            width: 210px;
+            background-color: white;
+            img{
+                margin-top: 50px;
+                margin-left: 50px;
+                height: auto;
+                width: 110px;
+            }
+        }
+        .amo-del{
+            position: absolute;
+            top: 82%;
+            left: 20.2%;
+            height: 210px;
+            width: 210px;
+            background-color: #2C2929;
+            img{
+                margin-top: 60px;
+                margin-left: 20px;
+                height: auto;
+                width: 180px;
+            }
+        }
+}

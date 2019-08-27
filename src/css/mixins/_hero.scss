@@ -1,0 +1,30 @@
+@mixin hero($name){
+    @if ($name == 'text'){
+        background-color: #9887;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .hero-title{
+            color: $second-color;
+            @include headings(xl);
+        }
+        p{
+            text-align: center;
+            width: 500px;
+            color: $seoncd-color;
+        }
+    }@else{
+        background-color: #2980b9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .hero-title{
+            color: $second-color;
+            @include headings(xl);
+        } 
+        .btn-hero{
+            @include btn(lg);
+        }
+    }
+}

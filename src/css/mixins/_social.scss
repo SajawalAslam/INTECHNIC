@@ -1,0 +1,22 @@
+@mixin headings($size) {
+    @if($size == sm){
+        position: absolute;
+        right: 250px;
+        top: 70px;
+        height: 40px;
+        width: 40px;
+        border-radius: 100px;
+        background-color: #D82533;
+        text-align: center;
+        color: grey;
+        padding-top: 4px;
+    }@else if($size == lg){
+        position: absolute;
+        right: 250px;
+        top: 70px;
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        border: 1px solid grey;
+    }
+}
